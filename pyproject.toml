@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "authservice"
+version = "0.1.0"
+description = ""
+authors = ["Michael <amaglichc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.0"
+passlib = "^1.7.4"
+"jwt.py" = "^0.1.1"
+SQLAlchemy = "^2.0.31"
+asyncpg = "^0.29.0"
+aio-pika = "^9.4.2"
+alembic = "^1.13.2"
+greenlet = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
